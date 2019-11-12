@@ -10,7 +10,6 @@ git -C ${meta_cpl_dir} pull
 else
 git clone -b ${branch} ${meta_url} ${meta_cpl_dir}
 fi
-git -C ${meta-cpl_dir} checkout bade7d0baa3f4888635bf5b2fbaa4b6373778a00
 }
 
 fsl_imx_x11() {
